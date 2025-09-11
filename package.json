@@ -1,0 +1,35 @@
+{
+  "name": "testing_meek",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "jest",
+    "test:mocha": "mocha",
+    "test:cov": "nyc jest",
+    "test:coverage:mocha": "nyc mocha",
+    "test:coverage:all": "npm run test:cov && npm run test:coverage:mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node app.js",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "cypress": "^14.5.4",
+    "eslint": "^9.35.0",
+    "jest": "^29.7.0",
+    "mocha": "^11.7.2",
+    "nyc": "^17.1.0",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "globals": "^16.4.0"
+  }
+}
