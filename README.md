@@ -1,4 +1,4 @@
-# Software Testing and QA Course Activity
+# Software Testing and QA Course Activity: Reg Number: 20724/2022
 
 Create a CRUD Todo application with authentication, authorization, user roles, and advanced features to create a production-ready application
 
