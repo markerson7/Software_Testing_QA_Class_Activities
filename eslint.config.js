@@ -4,7 +4,7 @@ js.configs.recommended,
 {
 languageOptions: {
 globals: {
-    //    ...js.environments.node.globals,
+      ...js.environments.node.globals,
 describe: 'readonly', 
 test: 'readonly', 
 expect: 'readonly', 
