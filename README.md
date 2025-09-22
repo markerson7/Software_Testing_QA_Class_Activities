@@ -1,6 +1,8 @@
 # Software Testing and QA Course Activity: Reg Number: 20724/2022
 
-Create a CRUD Todo application with authentication, authorization, user roles, and advanced features to create a production-ready application
+Create a CRUD Todo application with authentication, 
+authorization, user roles, and advanced features to 
+create a production-ready application
 
 # Learning Objectives Of This Course Activity
 
@@ -17,7 +19,8 @@ Create a CRUD Todo application with authentication, authorization, user roles, a
 ● Authentication: JWT, bcrypt
 ● Testing: Jest
 
-This API provides endpoints to manage users, authentication, and todos with support for role-based access control (Admin, Manager, User).
+This API provides endpoints to manage users, authentication,
+and todos with support for role-based access control (Admin, Manager, User).
 
 ## Authentication & Authorization
 
